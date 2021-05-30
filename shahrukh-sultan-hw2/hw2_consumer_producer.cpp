@@ -9,7 +9,7 @@ using namespace std;
 #include <random>
 #include <thread>
 
-#pragma warning( disable : 4091 )
+#pragma warning( disable : 4091 )           // disable ['keyword' : ignored on left of 'type' when no variable is declared] warning 
 
 struct thread_primitives {
     pthread_mutex_t sv_mutex = PTHREAD_MUTEX_INITIALIZER;        // sv_mutex =shared variable mutex
